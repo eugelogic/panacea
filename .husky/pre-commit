@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
-. "$(dirname "$0")/_/husky.sh"
-
 
 # lint and format staged files
 npx lint-staged
