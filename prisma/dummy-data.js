@@ -1,0 +1,95 @@
+const dummyDoctors = [
+  {
+    firstName: "Emma",
+    lastName: "Johnson",
+    specialty: "Cardiology",
+    biography: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    pricePerHour: 50.0,
+    email: "emma.johnson@email.com",
+    avatar: "",
+    approved: true,
+  },
+  {
+    firstName: "Liam",
+    lastName: "Williams",
+    specialty: "Pediatrics",
+    biography: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    pricePerHour: 75.0,
+    email: "liam.williams@email.com",
+    avatar: "",
+    approved: true,
+  },
+  {
+    firstName: "Sophia",
+    lastName: "Brown",
+    specialty: "Orthopedics",
+    biography: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    pricePerHour: 50.0,
+    email: "sophia.brown@email.com",
+    avatar: "",
+    approved: true,
+  },
+  {
+    firstName: "Noah",
+    lastName: "Smith",
+    specialty: "Oncology",
+    biography: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    pricePerHour: 125.0,
+    email: "noah.smith@email.com",
+    avatar: "",
+    approved: true,
+  },
+  {
+    firstName: "Olivia",
+    lastName: "Jones",
+    specialty: "Neurology",
+    biography: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+    pricePerHour: 75.0,
+    email: "olivia.jones@email.com",
+    avatar: "",
+    approved: true,
+  },
+];
+
+const dummyPatients = [
+  {
+    firstName: "Benjamin",
+    lastName: "Davis",
+    email: "benjamin.davis@email.com",
+    avatar: "",
+    approved: true,
+  },
+  {
+    firstName: "Michael",
+    lastName: "Martinez",
+    email: "michael.martinez@email.com",
+    avatar: "",
+    approved: true,
+  },
+  {
+    firstName: "Emily",
+    lastName: "Clark",
+    email: "emily.clark@email.com",
+    avatar: "",
+    approved: true,
+  },
+  {
+    firstName: "Mason",
+    lastName: "Hall",
+    email: "mason.hall@email.com",
+    avatar: "",
+    approved: true,
+  },
+  {
+    firstName: "Charlotte",
+    lastName: "Baker",
+    email: "charlotte.baker@email.com",
+    avatar: "",
+    approved: true,
+  },
+];
+
+module.exports = {
+  dummyDoctors,
+  dummyPatients,
+};
