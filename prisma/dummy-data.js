@@ -7,6 +7,7 @@ const dummyDoctors = [
     pricePerHour: 50.0,
     email: "emma.johnson@email.com",
     avatar: "",
+    homeVisit: false,
     approved: true,
   },
   {
@@ -17,6 +18,7 @@ const dummyDoctors = [
     pricePerHour: 75.0,
     email: "liam.williams@email.com",
     avatar: "",
+    homeVisit: true,
     approved: true,
   },
   {
@@ -27,6 +29,7 @@ const dummyDoctors = [
     pricePerHour: 50.0,
     email: "sophia.brown@email.com",
     avatar: "",
+    homeVisit: false,
     approved: true,
   },
   {
@@ -37,6 +40,7 @@ const dummyDoctors = [
     pricePerHour: 125.0,
     email: "noah.smith@email.com",
     avatar: "",
+    homeVisit: true,
     approved: true,
   },
   {
@@ -47,6 +51,7 @@ const dummyDoctors = [
     pricePerHour: 75.0,
     email: "olivia.jones@email.com",
     avatar: "",
+    homeVisit: false,
     approved: true,
   },
 ];
