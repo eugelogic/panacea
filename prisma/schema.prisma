@@ -16,30 +16,31 @@ datasource db {
 }
 
 model Doctor {
-	id 					  Int 			@id @default(autoincrement())
-	firstName 	  String
-	lastName 		  String
+  id            Int       @id @default(autoincrement())
+  firstName     String
+  lastName      String
   specialty     String
   biography     String
   pricePerHour  Float?    @default(0.0)
   email         String    @unique @db.VarChar(255)
   avatar        String?
-	approved 		  Boolean 	@default(false)
-	createdAt 	  DateTime 	@default(now())
-	updatedAt 	  DateTime 	@updatedAt
+  homeVisit     Boolean   @default(false)
+  approved      Boolean   @default(false)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
 
   @@map("pnc_doctors")
 }
 
 model Patient {
-	id 					  Int 			@id @default(autoincrement())
-	firstName 	  String
-	lastName 		  String
+  id            Int       @id @default(autoincrement())
+  firstName     String
+  lastName      String
   email         String    @unique @db.VarChar(255)
   avatar        String?
-	approved 		  Boolean 	@default(false)
-	createdAt 	  DateTime 	@default(now())
-	updatedAt 	  DateTime 	@updatedAt
+  approved      Boolean   @default(false)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
 
   @@map("pnc_patients")
 }
